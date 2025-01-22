@@ -12,12 +12,12 @@ html {
 }
 
 * {
-  scrollbar-color: theme(colors.secondary) theme(colors.primary);
+  scrollbar-color: #ffed4a #3490dc; /* Reemplaza con los colores reales */
   scrollbar-width: thin;
 }
 
 html.dark {
-  scrollbar-color: theme(colors.dk-secondary) theme(colors.dk-primary);
+  scrollbar-color: #1a202c #2d3748; /* Colores oscuros */
 }
 
 h1 {
@@ -26,28 +26,28 @@ h1 {
   font-size: 2.5rem;
   line-height: 2.5rem;
   font-weight: bold;
-  color: theme(colors.secondary);
+  color: #ffed4a; /* Reemplaza con el color definido */
 }
 
 h2 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
-  color: theme(colors.secondary);
+  color: #ffed4a;
 }
 
 h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 500;
-  color: theme(colors.secondary);
+  color: #ffed4a;
 }
 
 h4 {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
-  color: theme(colors.secondary);
+  color: #ffed4a;
 }
 
 p {
@@ -58,20 +58,20 @@ p {
 
 h2,
 p {
-  color: theme(colors.text);
+  color: #4a5568; /* Cambia según el color de texto */
 }
 html.dark h1 {
-  color: theme(colors.dk-secondary);
+  color: #e2e8f0; /* Cambia según el color oscuro */
 }
 
 html.dark h2,
 html.dark h3,
 html.dark h4 {
-  color: theme(colors.dk-secondary);
+  color: #e2e8f0;
 }
 
 html.dark p {
-  color: theme(colors.dk-text);
+  color: #a0aec0;
 }
 
 html,
@@ -90,11 +90,11 @@ body {
 }
 
 *::selection {
-  background-color: theme(colors.text) !important;
-  color: theme(colors.primary) !important;
+  background-color: #4a5568 !important;
+  color: #ffed4a !important;
 }
 
 html.dark *::selection {
-  background-color: theme(colors.dk-text) !important;
-  color: theme(colors.dk-primary) !important;
+  background-color: #a0aec0 !important;
+  color: #1a202c !important;
 }

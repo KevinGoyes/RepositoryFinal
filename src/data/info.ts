@@ -1,12 +1,12 @@
 export const info = {
-  name: "Bart Simpson",
+  name: "Kevin Felipe Goyes Alfonso",
   brief_description:
-    "I'm a mischievous full stack developer with a knack for troublemaking.",
-  role: "Full Stack Developer",
-  picture: "/pic.png",
-  picture_alt: "Bart Simpson",
-  location: "Springfield, USA",
-  cv: "/resume.pdf",
+    "Marketing and international business professional with experience as a digital trafficker and community manager.\n With knowledge in programming such as (Js, React, Pyton)",
+  role: "marketing and international business professional",
+  picture: "/fotomain.jpeg",
+  picture_alt: "Kevin Goyes",
+  location: "Bogota, Colombia",
+  cv: "Cv_english_KevinGoyes.pdf",
 
   about: {
     description: `I'm a full stack developer with a passion for causing a little chaos in web development.
