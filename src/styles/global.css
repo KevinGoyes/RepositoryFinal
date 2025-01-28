@@ -12,12 +12,12 @@ html {
 }
 
 * {
-  scrollbar-color: #ffed4a #3490dc; /* Reemplaza con los colores reales */
+  scrollbar-color: #ffffff #090450; /* Reemplaza con los colores reales */
   scrollbar-width: thin;
 }
 
 html.dark {
-  scrollbar-color: #1a202c #2d3748; /* Colores oscuros */
+  scrollbar-color: #1e1e1e #2c3e50; /* Colores oscuros */
 }
 
 h1 {
@@ -26,28 +26,28 @@ h1 {
   font-size: 2.5rem;
   line-height: 2.5rem;
   font-weight: bold;
-  color: #ffed4a; /* Reemplaza con el color definido */
+  color: #600fc3; /* Reemplaza con el color definido */
 }
 
 h2 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
-  color: #ffed4a;
+  color: #2c3e50;
 }
 
 h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 500;
-  color: #ffed4a;
+  color: #2c3e50;
 }
 
 h4 {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
-  color: #ffed4a;
+  color: #2c3e50;
 }
 
 p {
@@ -61,7 +61,7 @@ p {
   color: #4a5568; /* Cambia según el color de texto */
 }
 html.dark h1 {
-  color: #e2e8f0; /* Cambia según el color oscuro */
+  color: #e1eeff; /* Cambia según el color oscuro */
 }
 
 html.dark h2,
@@ -71,7 +71,7 @@ html.dark h4 {
 }
 
 html.dark p {
-  color: #a0aec0;
+  color: #c9d3e0;
 }
 
 html,
