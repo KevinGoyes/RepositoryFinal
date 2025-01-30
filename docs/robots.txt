@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://astro-portfolio-template.pages.dev/sitemap-index.xml
