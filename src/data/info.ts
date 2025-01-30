@@ -67,34 +67,34 @@ export const info = {
 
   projects: [
     {
-      title: "Bart's Prank Portfolio",
+      title: "EanCampuslands",
       date: "2024",
       description:
-        "An interactive portfolio website showcasing my mischievous coding projects.",
-      link: "https://github.com/bartsimpsonfake/prank-portfolio",
-      tech: ["React", "Node.js", "MongoDB", "Sarcasm.js"],
-      img_alt: "Bart's Portfolio",
-      img_path: "/simpsons.png",
+        "EAN CAMPUSLANDS is a technology centre that trains students in 10 months with practical and intensive learning, offering employability opportunities upon graduation.",
+      link: "https://universidadean.edu.co/eventos/transforma-tu-futuro-ean-campuslands-llego-bogota",
+      tech: ["SQL", "SAP", "Python", "Adobe premier", "Canva", "React"],
+      img_alt: "Portfolio",
+      img_path: "/Eancampuslands.jpg",
     },
     {
-      title: "Skateboard Shop",
-      date: "2023",
-      description:
-        "An e-commerce site selling skateboards and prank supplies. No bullies allowed!",
-      link: "https://github.com/bartsimpsonfake/skate-shop",
-      tech: ["React", "Node.js", "MongoDB", "Skateboard.js"],
-      img_alt: "Skateboard Shop",
-      img_path: "skateboard.png",
-    },
-    {
-      title: "Comic Book Club",
+      title: "Digital magazine management for b2b companies",
       date: "2022",
       description:
-        "A platform for comic book enthusiasts to discuss and share their collections.",
-      link: "https://github.com/bartsimpsonfake/comic-club",
-      tech: ["React", "Node.js", "MongoDB", "Comic.js"],
-      img_alt: "Comic Book Club",
-      img_path: "comics.png",
+        "Management of SEO and SEM strategies to create 2b2 opportunities, additionally I was in charge of reports and webinars",
+      link: "https://www.axiomab2b.com.co/industrias-b2b/la-barra/",
+      tech: ["MetaAds", "GoogleAds","Linkedin Ads","TiktokAds", "Mailchip", "Hubstop", "SemRush"],
+      img_alt: "Axioma b2b",
+      img_path: "/LABARRA.jpg",
+    },
+    {
+      title: "Claro Club",
+      date: "2021",
+      description:
+        "Digital campaigns via SMS channels to showcase all the benefits of Claro to end customers.",
+      link: "https://claroclub.com.co/",
+      tech: ["Power BI", "Google Analytics", "Trello"],
+      img_alt: "Claro clubClub",
+      img_path: "claroclub.jpg",
     },
   ],
 

@@ -6,6 +6,7 @@ import Contact from "../components/contact_section/Contact";
 import About from "../components/about_section/About";
 import Blog from "../components/post_section/Blog.astro";
 
+
 import { Image } from "astro:assets";
 
 const allPosts = await Astro.glob("./posts/*.md");
@@ -60,6 +61,9 @@ const allPosts = await Astro.glob("./posts/*.md");
   >
     <Blog posts={allPosts} />
   </section>
+
+
+
 
   <section
     class="lg:h-screen lg:m-0 my-20 mx-2 flex-col flex justify-center w-full"
