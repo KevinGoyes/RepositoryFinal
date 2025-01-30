@@ -11,6 +11,9 @@ export default defineConfig({
   markdown: {
     rehypePlugins: [rehypeAccessibleEmojis],
   },
-  site: 'https://kevingoyes.github.io/RepositoryFinal',
+  site: 'https://kevingoyes.github.io/RepositoryFinal', // URL de tu GitHub Pages
+  buildOptions: {
+    base: '/RepositoryFinal/',  // Nombre de tu repositorio en GitHub
+  },
   integrations: [tailwind(), react(), robotsTxt(), sitemap()]
 });

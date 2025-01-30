@@ -94,7 +94,7 @@ export const info = {
       link: "https://claroclub.com.co/",
       tech: ["Power BI", "Google Analytics", "Trello"],
       img_alt: "Claro clubClub",
-      img_path: "claroclub.jpg",
+      img_path: "/claroclub.jpg",
     },
   ],
 
